@@ -143,6 +143,8 @@ kb agentic gate exp-2026-...
 - `critic.md`：检查泄漏、成本、重复因子、引用支撑
 - `wiki-steward.md`：只在 gate 后写研究记忆或候选草稿
 
+流程图见 [docs/agentic-flow.md](docs/agentic-flow.md)。
+
 ### 2.7 体检 / Lint / 评估
 
 ```bash
