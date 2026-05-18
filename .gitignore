@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.DS_Store
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Index artefacts are rebuildable
+index/lance/
+index/meta.sqlite
+index/meta.sqlite-shm
+index/meta.sqlite-wal
+index/graph.json
+
+# Converted artefacts are reproducible from raw/
+converted/
+
+# Local model caches
+.cache/
+models/
+
+# Subscription/internal raw materials — opt in per folder if needed
+raw/

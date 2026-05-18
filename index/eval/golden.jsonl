@@ -1,0 +1,22 @@
+{"id": "g-001", "query": "动量因子在高换手股票中是否衰减", "expected_source_ids": [], "expected_keywords": ["动量", "换手", "衰减"], "domains": ["选股"], "as_of": null, "notes": "占位，待真实研报导入后补充 expected_source_ids"}
+{"id": "g-002", "query": "Barra 风险模型如何处理行业暴露", "expected_source_ids": [], "expected_keywords": ["Barra", "行业", "暴露"], "domains": ["选股", "通用方法"], "as_of": null, "notes": "占位"}
+{"id": "g-003", "query": "Risk Parity 在 2020 年后的资产配置表现", "expected_source_ids": [], "expected_keywords": ["风险平价", "Risk Parity", "资产配置"], "domains": ["资产配置"], "as_of": "2024-12-31", "notes": "占位"}
+{"id": "g-004", "query": "Transformer 在时序金融预测中的数据泄露问题", "expected_source_ids": [], "expected_keywords": ["Transformer", "时序", "数据泄露"], "domains": ["深度学习"], "as_of": null, "notes": "占位"}
+{"id": "g-005", "query": "Lopez de Prado 三角的核心思想", "expected_source_ids": [], "expected_keywords": ["Lopez de Prado", "三角"], "domains": ["机器学习"], "as_of": null, "notes": "占位"}
+{"id": "g-006", "query": "Black-Litterman 模型中的先验信念如何设定", "expected_source_ids": [], "expected_keywords": ["Black-Litterman", "先验"], "domains": ["资产配置"], "as_of": null, "notes": "占位"}
+{"id": "g-007", "query": "Kelly 公式的实务调整与杠杆约束", "expected_source_ids": [], "expected_keywords": ["Kelly", "杠杆", "仓位"], "domains": ["通用方法"], "as_of": null, "notes": "占位"}
+{"id": "g-008", "query": "Fama-French 五因子在 A 股的有效性", "expected_source_ids": [], "expected_keywords": ["Fama-French", "五因子", "A股"], "domains": ["选股"], "as_of": "2024-12-31", "notes": "占位"}
+{"id": "g-009", "query": "回测中如何检测幸存者偏差", "expected_source_ids": [], "expected_keywords": ["幸存者偏差", "survivorship"], "domains": ["通用方法"], "as_of": null, "notes": "占位"}
+{"id": "g-010", "query": "因子拥挤度的常见度量", "expected_source_ids": [], "expected_keywords": ["拥挤度", "crowdedness"], "domains": ["选股"], "as_of": null, "notes": "占位"}
+{"id": "g-011", "query": "行业中性化对 alpha 因子衰减的影响", "expected_source_ids": [], "expected_keywords": ["行业中性", "alpha", "衰减"], "domains": ["选股"], "as_of": null, "notes": "占位"}
+{"id": "g-012", "query": "RankIC 与 IC 在因子评估中的差异与适用场景", "expected_source_ids": [], "expected_keywords": ["RankIC", "IC", "因子评估"], "domains": ["选股"], "as_of": null, "notes": "占位"}
+{"id": "g-013", "query": "Almgren-Chriss 最优执行模型如何权衡冲击与风险", "expected_source_ids": [], "expected_keywords": ["Almgren-Chriss", "冲击", "执行"], "domains": ["通用方法"], "as_of": null, "notes": "占位"}
+{"id": "g-014", "query": "LSTM 与 Transformer 在 A 股选股中的对比", "expected_source_ids": [], "expected_keywords": ["LSTM", "Transformer", "选股"], "domains": ["深度学习"], "as_of": null, "notes": "占位"}
+{"id": "g-015", "query": "组合优化中的换手率约束与净收益权衡", "expected_source_ids": [], "expected_keywords": ["组合优化", "换手率", "交易成本"], "domains": ["选股", "通用方法"], "as_of": null, "notes": "占位"}
+{"id": "g-016", "query": "宏观因子在多资产配置中的边际贡献", "expected_source_ids": [], "expected_keywords": ["宏观因子", "多资产", "边际贡献"], "domains": ["资产配置"], "as_of": null, "notes": "占位"}
+{"id": "g-017", "query": "Triple-barrier 标签方法在 ML 选股中的实践要点", "expected_source_ids": [], "expected_keywords": ["triple barrier", "标签", "ML"], "domains": ["机器学习", "选股"], "as_of": null, "notes": "占位"}
+{"id": "g-018", "query": "尾部风险对冲策略在 2020 与 2022 年的表现差异", "expected_source_ids": [], "expected_keywords": ["尾部风险", "对冲", "2020", "2022"], "domains": ["资产配置"], "as_of": null, "notes": "占位"}
+{"id": "g-019", "query": "因子拥挤度上升时的减仓信号", "expected_source_ids": [], "expected_keywords": ["拥挤度", "减仓", "信号"], "domains": ["选股"], "as_of": null, "notes": "占位"}
+{"id": "g-020", "query": "中性化处理 Barra 风格暴露后的残差收益解释", "expected_source_ids": [], "expected_keywords": ["Barra", "残差", "中性化"], "domains": ["选股"], "as_of": null, "notes": "占位"}
+{"id": "g-021", "query": "GARCH 与 EWMA 在波动率预测中的对比", "expected_source_ids": [], "expected_keywords": ["GARCH", "EWMA", "波动率"], "domains": ["通用方法"], "as_of": null, "notes": "占位"}
+{"id": "g-022", "query": "信息比率与跟踪误差的关系及量化含义", "expected_source_ids": [], "expected_keywords": ["信息比率", "跟踪误差", "IR"], "domains": ["通用方法"], "as_of": null, "notes": "占位"}

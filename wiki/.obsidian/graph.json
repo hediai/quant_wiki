@@ -1,0 +1,28 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    { "query": "path:sources/", "color": { "a": 1, "rgb": 5431014 } },
+    { "query": "path:concepts/", "color": { "a": 1, "rgb": 14048028 } },
+    { "query": "path:factors/", "color": { "a": 1, "rgb": 6798140 } },
+    { "query": "path:threads/", "color": { "a": 1, "rgb": 16751724 } },
+    { "query": "path:outputs/", "color": { "a": 1, "rgb": 12303291 } }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 12,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.5,
+  "close": true
+}

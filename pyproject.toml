@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant-wiki"
+version = "0.1.0"
+description = "Local-first quant research knowledge base with Markdown wiki + hybrid retrieval"
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    "pyyaml>=6.0",
+    "rich>=13.0",
+    "typer>=0.12",
+    "python-frontmatter>=1.1",
+    "jieba>=0.42",
+    "tqdm>=4.66",
+    "python-slugify>=8.0",
+]
+
+[project.optional-dependencies]
+parsers = [
+    "markitdown[all]>=0.0.1a",
+    "pypdf>=4.0",
+]
+parsers-heavy = [
+    "docling>=2.0",
+    "marker-pdf>=1.0",
+]
+index = [
+    "lancedb>=0.13",
+    "pyarrow>=15.0",
+    "numpy>=1.26",
+]
+embed = [
+    "sentence-transformers>=3.0",
+    "torch>=2.2",
+    "FlagEmbedding>=1.2",
+]
+mcp = [
+    "mcp>=1.0",
+]
+anthropic = [
+    "anthropic>=0.40",
+]
+minimal = [
+    "quant-wiki[parsers,index]",
+]
+full = [
+    "quant-wiki[parsers,parsers-heavy,index,embed,mcp,anthropic]",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[project.scripts]
+kb = "kb.cli:app"
+kb-mcp = "mcp_server.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = ["kb*", "mcp_server*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

@@ -1,0 +1,17 @@
+schema_version: 1
+mode: semi_autonomous
+roles:
+- orchestrator
+- research
+- factor
+- backtest
+- critic
+- wiki-steward
+write_policy:
+  allowed:
+  - experiments/<experiment_id>/
+  - inbox/factors/
+  protected:
+  - raw/
+  - converted/
+  - wiki/factors/
